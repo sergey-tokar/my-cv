@@ -18,9 +18,9 @@ I am looking for a company where I can start a career as a FrontEnd developer an
 * Andersen JavaScript courses (2019)
 
 ##Skills##
-- JavaScript (basic)
-- HTML (basic)
-- CSS (basic)
+* JavaScript (basic)
+* HTML (basic)
+* CSS (basic)
 
 ##Code examples##
 Andersen JavaScript course project - [TODO app](https://github.com/sergey-tokar/todo "Sergey Tokar - TODO APP")
@@ -35,7 +35,6 @@ Senior Business Analyst
 •	Preparing forecasts
 •	Preparing reports for the board of management
 •	Preparing business plans
-
 #####Bright Ideas Ltd, October 2014 – June 2017
 Minsk, Belarus
 Customer Service Department Manager
@@ -44,7 +43,6 @@ Customer Service Department Manager
 •	Developing new customer search system
 •	Planning and organizing work with regular customers
 •	Developing systems of interaction with the most promising and profitable customers (discount systems, individual service, accelerated terms, etc.)
-
 #####WestTransLine JV Ltd, June 2011 – September 2014
 Minsk, Belarus
 Marketing and Sales Analyst
