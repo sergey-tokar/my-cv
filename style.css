@@ -1,59 +1,74 @@
 body {
   display: block;
-  max-width: 984px;
+  max-width: 1024px;
   margin: 0 auto;
   font-family: Arial, sans-serif;
 }
 
-header,
-nav {
+.cv-head,
+.navigation {
   margin: 0;
   background-color: rgb(227, 247, 201);
 }
 
-nav a {
-  margin: 0px 13px;
+.navigation{
+  height: 30px;
 }
 
-header {
+.navigation-link,
+.contact-link {
+  text-decoration: none;
+  color: black;
+}
+
+.navigation-link:hover,
+.contact-link:hover {
+  text-decoration: underline;
+}
+
+.cv-head {
   padding: 10px;
   border-radius: 10px 10px 0px 0px;
 }
 
-nav {
+ .navigation {
+  display: flex;
+  justify-content: space-between;
   padding: 10px;
   font-weight: bold;
   font-size: 12px;
   border-radius: 0px 0px 10px 10px;
 }
 
-main {
+.cv-content {
   padding: 10px;
-  font-size: 16px;
+  font-size: 14px;
 }
 
-h1{
+.head-name{
   margin: 0;
   font-size: 26px;
 }
 
-h2 {
+.cv-part-head {
   margin: 1em 0 0.5em 0;
   font-size: 18px;
   background-color: rgb(227, 247, 201);
 }
 
-h3 {
+.personal-information-all-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.companies {
   margin: 0.5em 0.2em;
   text-decoration: underline;
 }
 
-figure {
+.photo {
+  width: 150px;
   margin: 0;
-}
-
-img {
-  float: right;
   border-radius: 5px;
 }
 
@@ -61,7 +76,7 @@ p {
   margin: 0.4em;
 }
 
-span {
+.advantages {
   font-weight: bold;
 }
 
