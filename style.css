@@ -1,90 +1,100 @@
 body {
-  display: block;
-  max-width: 1024px;
-  margin: 0 auto;
-  font-family: Arial, sans-serif;
+    display: block;
+    max-width: 1024px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    margin: 0.4em;
+}
+
+li {
+    margin: 0.5em;
 }
 
 .cv-head,
 .navigation {
-  margin: 0;
-  background-color: rgb(227, 247, 201);
-}
-
-.navigation{
-  height: 30px;
+    margin: 0;
+    background-color: rgb(227, 247, 201);
 }
 
 .navigation-link,
 .contact-link {
-  text-decoration: none;
-  color: black;
+    text-decoration: none;
+    color: black;
 }
 
 .navigation-link:hover,
 .contact-link:hover {
-  text-decoration: underline;
+    text-decoration: underline;
+    text-underline-position: under;
 }
 
 .cv-head {
-  padding: 10px;
-  border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    margin-top: 10px;
 }
 
- .navigation {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px;
-  font-weight: bold;
-  font-size: 12px;
-  border-radius: 0px 0px 10px 10px;
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 0px 0px 10px 10px;
 }
 
 .cv-content {
-  padding: 10px;
-  font-size: 14px;
+    padding: 0 10px;
+    font-size: 14px;
 }
 
-.head-name{
-  margin: 0;
-  font-size: 26px;
+.head-name {
+    margin: 0;
+    font-size: 26px;
 }
 
 .cv-part-head {
-  margin: 1em 0 0.5em 0;
-  font-size: 18px;
-  background-color: rgb(227, 247, 201);
+    margin: 1em 0 0.5em 0;
+    font-size: 18px;
+    background-color: rgb(227, 247, 201);
 }
 
 .personal-information-all-content {
-  display: flex;
-  justify-content: space-between;
-}
-
-.companies {
-  margin: 0.5em 0.2em;
-  text-decoration: underline;
-}
-
-.photo {
-  width: 150px;
-  margin: 0;
-  border-radius: 5px;
-}
-
-p {
-  margin: 0.4em;
+    display: flex;
+    justify-content: space-between;
 }
 
 .advantages {
-  font-weight: bold;
+    font-weight: bold;
 }
 
-li {
-  margin: 0.5em;
+.code-example-link {
+    text-decoration: none;
+    color: black;
 }
 
-footer{
-  text-align: center;
-  color: lightslategray;
+.code-example-link:hover {
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.companies {
+    margin: 1em 0.2em;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.photo {
+    width: 150px;
+    margin: 0;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    color: lightslategray;
+    padding-bottom: 20px;
 }
